@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "role": "buyer",
+      "email": "alice.johnson@example.com",
+      "img": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "role": "seller",
+      "email": "bob.smith@example.com",
+      "img": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 3,
+      "name": "Catherine Lee",
+      "role": "admin",
+      "email": "catherine.lee@example.com",
+      "img": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 4,
+      "name": "David Brown",
+      "role": "buyer",
+      "email": "david.brown@example.com",
+      "img": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 5,
+      "name": "Evelyn White",
+      "role": "seller",
+      "email": "evelyn.white@example.com",
+      "img": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 6,
+      "name": "Frank Harris",
+      "role": "admin",
+      "email": "frank.harris@example.com",
+      "img": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 7,
+      "name": "Grace Wilson",
+      "role": "buyer",
+      "email": "grace.wilson@example.com",
+      "img": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 8,
+      "name": "Henry Martin",
+      "role": "seller",
+      "email": "henry.martin@example.com",
+      "img": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 9,
+      "name": "Isla Thompson",
+      "role": "admin",
+      "email": "isla.thompson@example.com",
+      "img": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 10,
+      "name": "Jack Walker",
+      "role": "buyer",
+      "email": "jack.walker@example.com",
+      "img": "https://via.placeholder.com/150"
+    }
+  ]
+  
