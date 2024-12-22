@@ -58,7 +58,7 @@ import { useContext } from "react";
 import { AuthContext } from "../../../Provider/AuthProvider";
 
 import { Link } from "react-router-dom";
-// import "./Header.css"
+import "./Header.css"
 
 const Navbar = () => {
 
@@ -70,8 +70,8 @@ const Navbar = () => {
       .catch(error => console.log(error));
   }
   return (
-    <div className=" my-3 rounded-tl-lg rounded-br-lg">
-      <div className="navbar bg-slate-200 px-20">
+    <div className=" rounded-tl-lg rounded-br-lg">
+      <div className="navbar bg-slate-200 md:lg:px-20">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -86,8 +86,8 @@ const Navbar = () => {
             </ul>
           </div>
 
-          <img src="https://w1.pngwing.com/pngs/712/352/png-transparent-graphic-design-icon-icon-design-drawing-pencil-logo-text-black-and-white-line.png" alt="" className="rounded-full h-10" />
-          <Link to="/" className="btn btn-ghost normal-case text-xl">YouDrawing</Link>
+          <img src="https://static.vecteezy.com/system/resources/thumbnails/021/738/168/small_2x/smartphone-mockup-for-applications-ui-presentation-phone-illustration-vector.jpg" alt="" className="rounded-full h-10" />
+          <Link to="/" className="btn btn-ghost normal-case text-xl">PhoneVerse</Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -111,7 +111,7 @@ const Navbar = () => {
           {
             user &&
             <div className="hover-container">
-              <img className='rounded-full me-2' src={user.photoURL} alt="" />
+              <img className='rounded-full me-2' src={user.photoURL} alt="Profile" />
               <div className="hover-text">
                 <span>{user.displayName}</span>
               </div>

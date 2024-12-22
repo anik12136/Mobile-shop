@@ -9,7 +9,7 @@ const AdminDashboard = () => {
                     <div className="drawer-content flex flex-col items-center justify-center">
                         {/* Page content here */}
                         <Outlet></Outlet>
-                        <label htmlFor="my-drawer-2" className="btn btn-primary drawer-button lg:hidden">Open drawer</label>
+                        <label htmlFor="my-drawer-2" className="btn btn-primary drawer-button lg:hidden mt-5">See Dashboard</label>
 
                     </div>
                     <div className="drawer-side">
