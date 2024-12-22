@@ -1,0 +1,68 @@
+.about-section {
+    padding: 50px 20px;
+    background-color: #f9fafc;
+    text-align: center;
+  }
+  
+  .about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-container h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .brand-name {
+    color: #0078ff;
+  }
+  
+  .about-container p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0 20px;
+    line-height: 1.6;
+  }
+  
+  .about-container h2 {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color: #34495e;
+  }
+  
+  .about-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-container ul li {
+    font-size: 1rem;
+    color: #444;
+    margin: 10px 0;
+    text-align: left;
+  }
+  
+  .about-container ul li strong {
+    color: #2c3e50;
+  }
+  
+  .about-contact {
+    margin-top: 30px;
+  }
+  
+  .about-contact a {
+    color: #0078ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .about-contact a:hover {
+    text-decoration: underline;
+  }
+  

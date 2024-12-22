@@ -1,9 +1,12 @@
+import FeaturedProducts from "../../../components/FeaturedProducts/FeaturedProducts";
+import Banner from "../../../components/Home/Banner";
 
 const Home = () => {
     return (
-        <div >
-             <h2 className="text-5xl text-center">Home Test</h2>
-        </div>
+       <div>
+        <Banner></Banner>
+        <FeaturedProducts></FeaturedProducts>
+       </div>
     );
 };
 
