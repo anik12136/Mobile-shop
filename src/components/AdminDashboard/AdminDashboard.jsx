@@ -30,8 +30,6 @@ const AdminDashboard = () => {
                                         whileTap={{ scale: 0.9 }}
                                         className="box"
                                     >
-                                        <li><Link to="/dashboard/manageClasses">Manage Classes</Link></li>
-
                                     </motion.div>
                                 </div>
                                 <div>

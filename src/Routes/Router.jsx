@@ -9,6 +9,7 @@ import Contact from "../Pages/Contact/Contact";
 import Login from "../Pages/Login/Login";
 import SignUp from "../Pages/Registration/SignUp";
 import Dashboard from "../Pages/Dashboard/Dashboard";
+import AllUsers from "../components/AllUsers/AllUsers";
 
 
   export const router = createBrowserRouter([
@@ -41,8 +42,16 @@ import Dashboard from "../Pages/Dashboard/Dashboard";
             element: <SignUp></SignUp>
         },
         {
-            path : "/dashboard",
-            element: <Dashboard></Dashboard>
+          path: 'dashboard',
+          element: <Dashboard></Dashboard>,
+          children: [
+            {
+              path: 'allUsers',
+              element: <AllUsers></AllUsers>
+            },
+            
+            
+          ]
         },
        
         

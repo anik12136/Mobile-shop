@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const SellerDashboard = () => {
     return (
-        <div className="ms-20">
+        <div className="">
                 <div className="drawer lg:drawer-open ">
                     <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
                     <div className="drawer-content flex flex-col items-center justify-center">
@@ -19,7 +19,7 @@ const SellerDashboard = () => {
 
 
                             <div className="mx-16">
-                                <h2 className="text-3xl ms-3">Instructor</h2>
+                                <h2 className="text-3xl ms-3">Seller</h2>
 
                                 <motion.div
                                     initial={{ opacity: 0, y: -100 }}
@@ -29,7 +29,7 @@ const SellerDashboard = () => {
                                     whileTap={{ scale: 0.9 }}
                                     className="box"
                                 >
-                                    <li><Link to="/dashboard/addAClass">Add a Class</Link></li>
+                                    <li><Link to="/dashboard/addAClass">Add a product</Link></li>
 
                                 </motion.div>
 
@@ -41,7 +41,7 @@ const SellerDashboard = () => {
                                     whileTap={{ scale: 0.9 }}
                                     className="box"
                                 >
-                                    <li><Link to="/dashboard/myClasses">My Classes</Link></li>
+                                    <li><Link to="/dashboard/myClasses">Manage Products</Link></li>
 
                                 </motion.div>
                                 <div className="divider"></div>
