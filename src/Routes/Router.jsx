@@ -11,6 +11,8 @@ import SignUp from "../Pages/Registration/SignUp";
 import Dashboard from "../Pages/Dashboard/Dashboard";
 import AllUsers from "../components/AllUsers/AllUsers";
 import AddProduct from "../components/AddProduct/AddProduct";
+import MyProducts from "../components/MyProducts/MyProducts";
+import UpdateProducts from "../components/MyProducts/UpdateProducts";
 
 
   export const router = createBrowserRouter([
@@ -53,6 +55,14 @@ import AddProduct from "../components/AddProduct/AddProduct";
             {
               path: 'addProduct',
               element: <AddProduct></AddProduct>
+            },
+            {
+              path: 'myProducts',
+              element: <MyProducts></MyProducts>
+            },
+            {
+              path: 'updateProducts',
+              element: <UpdateProducts></UpdateProducts>
             },
             
             
