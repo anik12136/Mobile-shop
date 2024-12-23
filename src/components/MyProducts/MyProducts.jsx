@@ -12,7 +12,7 @@ const MyProducts = () => {
     // const [searchQuery, setSearchQuery] = useState("All");
 
     useEffect(() => {
-        fetch(`http://localhost:7000/myProducts/${user?.email}`)
+        fetch(`https://mobile-shop-server-3ph55haiy-anik12136s-projects.vercel.app/myProducts/${user?.email}`)
             .then(res => res.json())
             .then(data => setMyProducts(data))
             .catch(error => console.error(error))
@@ -34,7 +34,7 @@ const MyProducts = () => {
         }).then((result) => {
             if (result.isConfirmed) {
 
-                fetch(`http://localhost:7000/delete/${id}`, {
+                fetch(`https://mobile-shop-server-3ph55haiy-anik12136s-projects.vercel.app/delete/${id}`, {
                     method: 'DELETE'
                 })
                     .then(res => res.json())
