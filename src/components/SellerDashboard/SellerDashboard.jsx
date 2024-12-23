@@ -29,7 +29,7 @@ const SellerDashboard = () => {
                                     whileTap={{ scale: 0.9 }}
                                     className="box"
                                 >
-                                    <li><Link to="/dashboard/addAClass">Add a product</Link></li>
+                                    <li><Link to="/dashboard/addProduct">Add a product</Link></li>
 
                                 </motion.div>
 
@@ -41,7 +41,7 @@ const SellerDashboard = () => {
                                     whileTap={{ scale: 0.9 }}
                                     className="box"
                                 >
-                                    <li><Link to="/dashboard/myClasses">Manage Products</Link></li>
+                                    <li><Link to="/dashboard/manageProduct">Manage Products</Link></li>
 
                                 </motion.div>
                                 <div className="divider"></div>

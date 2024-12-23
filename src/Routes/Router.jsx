@@ -10,6 +10,7 @@ import Login from "../Pages/Login/Login";
 import SignUp from "../Pages/Registration/SignUp";
 import Dashboard from "../Pages/Dashboard/Dashboard";
 import AllUsers from "../components/AllUsers/AllUsers";
+import AddProduct from "../components/AddProduct/AddProduct";
 
 
   export const router = createBrowserRouter([
@@ -48,6 +49,10 @@ import AllUsers from "../components/AllUsers/AllUsers";
             {
               path: 'allUsers',
               element: <AllUsers></AllUsers>
+            },
+            {
+              path: 'addProduct',
+              element: <AddProduct></AddProduct>
             },
             
             
