@@ -23,7 +23,7 @@ const Wishlist = () => {
 
                                     // </CourseCardDesign>
 
-                                    <ProductCard key={item._id} course={item}>
+                                    <ProductCard key={item._id} product={item}>
 
                                     </ProductCard>
 

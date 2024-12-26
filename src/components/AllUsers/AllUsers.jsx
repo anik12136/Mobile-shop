@@ -64,7 +64,7 @@ const AllUsers = () => {
 
     return (
         <div>
-            <div className="">
+            <div className="md:lg:mt-10">
                 <table className=" bg-white border border-gray-300">
                     <thead>
                         <tr>

@@ -6,7 +6,7 @@ const BuyerDashboard = () => {
         <div className="">
         <div className="drawer lg:drawer-open">
             <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
-            <div className="drawer-content flex flex-col items-center justify-center">
+            <div className="drawer-content flex flex-col items-center">
                 {/* Page content here */}
                 <Outlet></Outlet>
                 <label htmlFor="my-drawer-2" className="btn drawer-button lg:hidden mt-5 ms-28">See Dashboard</label>
