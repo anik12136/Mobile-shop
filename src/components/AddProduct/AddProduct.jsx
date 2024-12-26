@@ -13,7 +13,7 @@ const AddProduct = () => {
     const onSubmit = data => {
         console.log(data);
 
-        fetch('https://mobile-shop-server-3ph55haiy-anik12136s-projects.vercel.app/addProduct', {
+        fetch('http://localhost:7000/addProduct', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

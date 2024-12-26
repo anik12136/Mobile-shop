@@ -146,7 +146,7 @@ const SignUp = () => {
                     .then(() => {
                         const insertUser = { name: data.name, email: data.email, image: data.photoURL, role: data.role }
                         console.log(insertUser);
-                        fetch('https://mobile-shop-server-3ph55haiy-anik12136s-projects.vercel.app/users', {
+                        fetch('http://localhost:7000/users', {
                             method: 'POST',
                             headers: {
                                 'content-type': 'application/json'

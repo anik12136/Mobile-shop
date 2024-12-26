@@ -17,7 +17,7 @@ const Dashboard = () => {
     // to do load users data
 
     useEffect(() => {
-            fetch(`https://mobile-shop-server-3ph55haiy-anik12136s-projects.vercel.app/users/check/${user?.email}`)
+            fetch(`http://localhost:7000/users/check/${user?.email}`)
             .then(res => res.json())
             .then(data => setCheckUser(data))
         // .catch(error => console.error(error))

@@ -6,21 +6,21 @@ import { motion } from 'framer-motion';
 const AllUsers = () => {
 
     // const { data: users = [], refetch } = useQuery([''], async () => {
-    //     const res = await fetch('https://mobile-shop-server-3ph55haiy-anik12136s-projects.vercel.app/users')
+    //     const res = await fetch('http://localhost:7000/users')
     //     return res.json();
     // });
 
     const { data: users = [], refetch } = useQuery({
         queryKey: ['users'],
         queryFn: async () => {
-            const res = await fetch('https://mobile-shop-server-3ph55haiy-anik12136s-projects.vercel.app/users');
+            const res = await fetch('http://localhost:7000/users');
             return res.json();
         }
     });
 
     //make admin function
     const handleMakeAdmin = user => {
-        fetch(`https://mobile-shop-server-3ph55haiy-anik12136s-projects.vercel.app/users/admin/${user._id}`, {
+        fetch(`http://localhost:7000/users/admin/${user._id}`, {
             method: 'PATCH'
         })
             .then(res => res.json())
@@ -41,7 +41,7 @@ const AllUsers = () => {
 
     //make seller function
     const handleMakeSeller = user => {
-        fetch(`https://mobile-shop-server-3ph55haiy-anik12136s-projects.vercel.app/users/seller/${user._id}`, {
+        fetch(`http://localhost:7000/users/seller/${user._id}`, {
             method: 'PATCH'
         })
             .then(res => res.json())

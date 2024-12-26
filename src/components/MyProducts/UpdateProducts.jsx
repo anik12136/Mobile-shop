@@ -14,7 +14,7 @@ const UpdateProducts = () => {
 
     const handleUpdateProduct = (data) => {
         console.log(data)
-        fetch(`https://mobile-shop-server-3ph55haiy-anik12136s-projects.vercel.app/updateProduct/${data?._id}`,{
+        fetch(`http://localhost:7000/updateProduct/${data?._id}`,{
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json'

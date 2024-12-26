@@ -13,6 +13,7 @@ import AllUsers from "../components/AllUsers/AllUsers";
 import AddProduct from "../components/AddProduct/AddProduct";
 import MyProducts from "../components/MyProducts/MyProducts";
 import UpdateProducts from "../components/MyProducts/UpdateProducts";
+import NotFound from "../Pages/404/NotFound";
 
 
   export const router = createBrowserRouter([
@@ -67,6 +68,10 @@ import UpdateProducts from "../components/MyProducts/UpdateProducts";
             
             
           ]
+        },
+        {
+          path: '*',
+          element: <NotFound></NotFound>
         },
        
         
