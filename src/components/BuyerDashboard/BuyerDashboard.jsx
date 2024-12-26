@@ -29,7 +29,7 @@ const BuyerDashboard = () => {
                             whileTap={{ scale: 0.9 }}
                             className="box"
                         >
-                            <li><Link to="/dashboard/mySelectedClass">My Favorite</Link></li>
+                            <li><Link to="/dashboard/wishlist">My Wishlist</Link></li>
 
                         </motion.div>
 
@@ -41,7 +41,7 @@ const BuyerDashboard = () => {
                             whileTap={{ scale: 0.9 }}
                             className="box"
                         >
-                            <li><Link to="/dashboard/myClasses">My cart</Link></li>
+                            <li><Link to="/dashboard/myCart">My cart</Link></li>
 
                         </motion.div>
 

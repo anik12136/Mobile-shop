@@ -14,6 +14,7 @@ import AddProduct from "../components/AddProduct/AddProduct";
 import MyProducts from "../components/MyProducts/MyProducts";
 import UpdateProducts from "../components/MyProducts/UpdateProducts";
 import NotFound from "../Pages/404/NotFound";
+import Wishlist from "../components/Wishlist/Wishlist";
 
 
   export const router = createBrowserRouter([
@@ -64,6 +65,14 @@ import NotFound from "../Pages/404/NotFound";
             {
               path: 'updateProducts',
               element: <UpdateProducts></UpdateProducts>
+            },
+            {
+              path: 'wishlist',
+              element: <Wishlist></Wishlist>
+            },
+            {
+              path: 'myCart',
+              element: <Wishlist></Wishlist>
             },
             
             
